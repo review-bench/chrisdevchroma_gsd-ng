@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout default branch (trusted)
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v6
         # No ref specified — defaults to default branch (trusted execution model)
         # PR diff data is fetched via GitHub API in ci-security-scan.cjs, not via checkout
 
